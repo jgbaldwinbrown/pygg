@@ -3,7 +3,7 @@
 library(ggplot2)
 library(data.table)
 
-data = as.data.frame(fread("cat /dev/stdin", header=TRUE))
+data = as.data.frame(fread("cat /dev/stdin", header=TRUE, sep="\t"))
 # print(data) # DEBUG
 
 args = commandArgs(trailingOnly=TRUE)
