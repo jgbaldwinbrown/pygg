@@ -7,7 +7,7 @@ A python3 wrapper for R's ggplot2
 1. Copy ggplotit.R into a directory that has been added to your PATH. For example:
 ```sh
 export PATH=$PATH:~/mybin
-cp ggplotit.R ~/mybin
+cp ggplotit.R ~/mybin/ggplotit
 ```
 
 2. add this directory to your PYTHONPATH. For example:
