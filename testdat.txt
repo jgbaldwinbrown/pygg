@@ -1,0 +1,4 @@
+	fruit	color	number	size
+1	apple	red	3	2.8
+2	banana	yellow	5	2.2
+3	carrot	orange	4	1.5
