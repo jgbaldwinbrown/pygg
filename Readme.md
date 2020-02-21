@@ -45,4 +45,4 @@ The above script should produce a plot in the file "fruits_by_day.pdf".
 ## Notes
 
 1. `pygg.ggplot()` imports your data into `R` under the name `data`, so the `data=data` argument to `ggplot` is necessary in almost every case.
-2. All `R` ggplot commands must be werapped in `print()` commands in order to actually plot.
+2. All `R` ggplot commands must be wrapped in `print()` commands in order to actually plot.
