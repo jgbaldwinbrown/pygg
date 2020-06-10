@@ -2,8 +2,10 @@
 
 library(ggplot2)
 library(data.table)
+library(rjson)
 
-data = as.data.frame(fread("cat /dev/stdin", header=TRUE, sep="\t"))
+jdata = fromJSON(file="stdin")
+data = as.data.frame(jdata$data)
 # print(data) # DEBUG
 
 args = commandArgs(trailingOnly=TRUE)
